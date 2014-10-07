@@ -29,7 +29,11 @@ MathJax.Hub.Config({
   tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
 });
 </script>
-		<script src="../MathJax/MathJax.js?config=TeX-AMS_HTML"></script> 
+		<script src="../MathJax/MathJax.js?config=TeX-AMS_HTML"></script>
+
+
+
+
 	</head>
 	<body>
 		<div class="reveal">
@@ -40,20 +44,23 @@ MathJax.Hub.Config({
 <h2>Fourier Series</h2>
 </div></div>
 <div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 241px; height: auto;" data-block-id="de7f755ea4a1cc67a24382276fc5cfe8"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
-<p>Periodic Signal $ \longleftrightarrow $ Sum of Sinusoidal waves</p>
+<p>Periodic Signal $ \longleftrightarrow $ Sum of Sinusoidal waves with frequency $0$, $\omega_0$, <span>$2\omega_0$...$k</span><span>\omega_0$</span></p>
 </div></div>
-<div class="sl-block" data-block-type="text" data-block-id="013ff4fd3e5b1039e54482f4ec17d38b" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 331px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<div class="sl-block" data-block-type="text" data-block-id="013ff4fd3e5b1039e54482f4ec17d38b" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 350px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
 <p>If $x(t) = x(t+T) $</p>
 </div></div>
-<div class="sl-block" data-block-type="text" data-block-id="3d5f319c616de2135a3f8fd8e6222218" style="height: auto; min-width: 30px; min-height: 30px; width: 864px; left: 48px; top: 401px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
-<p>$$x(t) = \Sigma_{k=-\infty}^{\infty} a_k e^{jk\omega_0 t}$$</p>
+<div class="sl-block" data-block-type="text" data-block-id="3d5f319c616de2135a3f8fd8e6222218" style="height: auto; min-width: 30px; min-height: 30px; width: 864px; left: 48px; top: 401px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; border-width: 1px; text-align: center;">
+<p>$x(t) = \Sigma_{k=-\infty}^{\infty} a_k e^{jk\omega_0 t}$</p>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="d995e82fbcaa401cd06db43b43181411" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 521px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; color: rgb(246, 18, 18);">
+<p>Why only these frequencies?</p>
 </div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 0px; height: auto;" data-block-id="703a869629c6615c408a7dbaa12c79d4"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;">
 <h2>What is $a_k$</h2>
 </div></div>
 <div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 82px; height: auto;" data-block-id="361084e3961e9ac9061438a04260beb9"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
 <p>Amplitude of wave having frequency $ k \omega_0 $</p>
 </div></div>
-<div class="sl-block" data-block-type="image" data-block-id="353ca7f264c6bd73e5049e3f622d137b" style="min-width: 30px; min-height: 30px; width: 560px; height: 448px; left: 200px; top: 227px;"><div class="sl-block-content" style="z-index: 13; border-width: 1px;" href=""><img src="https://s3.amazonaws.com/media-p.slid.es/uploads/kartikp1995/images/669975/aK.gif" style="visibility: visible;" data-natural-width="500" data-natural-height="400"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="353ca7f264c6bd73e5049e3f622d137b" style="min-width: 30px; min-height: 30px; width: 560px; height: 448px; left: 200px; top: 227px;"><div class="sl-block-content" style="z-index: 13; border-width: 1px;" href=""><img src="images/aK.gif" style="visibility: visible;" data-natural-width="500" data-natural-height="400"></div></div>
 <div class="sl-block" data-block-type="text" data-block-id="d3ca651d617eb5dd4d98b43cd614648b" style="height: auto; min-width: 30px; min-height: 30px; width: 948px; left: 6px; top: 132px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
 <p>Corresponds to Energy of component of Signal with frequency $ k \omega_0 $</p>
 </div></div></section><section><div class="sl-block" data-block-type="text" style="width: 968px; left: -4px; top: 0px; height: auto;" data-block-id="54b6784ce0f1a62f880e799e8cff5dfd"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 12;">
@@ -69,17 +76,44 @@ MathJax.Hub.Config({
 
 <p>$$ \Rightarrow a_k \rightarrow X(\jmath \omega) $$</p>
 </div></div>
-<div class="sl-block" data-block-type="image" data-block-id="a3ec202c78c8e3309deae4ae630e1634" style="min-width: 30px; min-height: 30px; width: 950px; height: 316.094032549729px; left: 5px; top: 350px;"><div class="sl-block-content" style="z-index: 13;"><img src="https://s3.amazonaws.com/media-p.slid.es/uploads/kartikp1995/images/670066/FS2FT.png" style="visibility: visible;" data-natural-width="1106" data-natural-height="368"></div></div></section><section><div class="sl-block" data-block-type="text" style="width: 943px; left: 9px; top: 22px; height: auto;" data-block-id="5f4238ea2460c2810c2346bf18d06588"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;">
+<div class="sl-block" data-block-type="image" data-block-id="a3ec202c78c8e3309deae4ae630e1634" style="min-width: 30px; min-height: 30px; width: 950px; height: 316.094032549729px; left: 5px; top: 350px;"><div class="sl-block-content" style="z-index: 13;"><img src="images/FS2FT.png" style="visibility: visible;" data-natural-width="1106" data-natural-height="368"></div></div></section><section><div class="sl-block" data-block-type="text" style="width: 943px; left: 9px; top: 22px; height: auto;" data-block-id="5f4238ea2460c2810c2346bf18d06588"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
 <h1><span style="font-size:64px">Fourier Transform</span></h1>
 </div></div>
-<div class="sl-block" data-block-type="text" data-block-id="872688391de51c4f0baec7d3670f7a9a" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 140px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<div class="sl-block" data-block-type="text" data-block-id="872688391de51c4f0baec7d3670f7a9a" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 140px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
 <p>Suppose $x(t)$ is a non-periodic signal</p>
 </div></div>
-<div class="sl-block" data-block-type="text" data-block-id="88a3f82d6a873545d2992284913a8996" style="height: auto; min-width: 30px; min-height: 30px; width: 943px; left: 9px; top: 331px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
-<p>$$X(\jmath \omega) = \int^{\infty}_{-\infty} x(t)\exp^{-\jmath \omega t} dt $$</p>
+<div class="sl-block" data-block-type="text" data-block-id="88a3f82d6a873545d2992284913a8996" style="height: auto; min-width: 30px; min-height: 30px; width: 943px; left: 9px; top: 210px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p>$$X(\jmath \omega) = \int^{\infty}_{-\infty} x(t) e^{-\jmath \omega t} dt $$</p>
 
-<p>$$x(t) = \frac{1}{2\pi}\int^{+\infty}_{-\infty}X(\jmath \omega)\exp^{\jmath \omega t} d\omega $$</p>
-</div></div></section></section>
+<p>$$x(t) = \frac{1}{2\pi}\int^{+\infty}_{-\infty}X(\jmath \omega) e^{\jmath \omega t} d\omega $$</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 521px;" data-block-id="9df2e0137c58d7731073e6c3b7accae3"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; color: rgb(246, 18, 18);">
+<p>Why not only specific frequencies?</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 960px; left: 0px; top: 451px;" data-block-id="ef9b4759a07c523f7cca6dff539da987"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; color: rgb(246, 18, 18);">
+<p><span style="font-size:24px">Summation of sinusoidal waves with all frequencies. i.e. $-\infty$ to $\infty$</span></p>
+</div></div></section><section><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 0px; height: auto;" data-block-id="b9de8878d8d18e295bdc25c842e81cd4"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1><span style="font-size:48px">What is $X(\jmath \omega)$</span></h1>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="e3c1ce615c61ce997072c1cf53cb2a1e" style="min-width: 30px; min-height: 30px; width: 600px; height: 450px; left: 180px; top: 140px;"><div class="sl-block-content" style="z-index: 12;"><img src="images/Continuous_Fourier_transform_of_rect_and_sinc_functions.gif" style="visibility: visible;" data-natural-width="500" data-natural-height="375"></div></div></section></section><section><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 0px; height: auto;" data-block-id="677bced2c6c45dcef67b2e827d0b0e0f"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;">
+<h1><span style="font-size:48px">Fourier Transform of Periodic Signal</span></h1>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="f3eb226a07b428c01d4f96acdaed810f" style="height: auto; min-width: 30px; min-height: 30px; width: 960px; left: 0px; top: 140px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<ul>
+	<li style="text-align:left">Periodic Signal must be addition of sinusoidal waves of particular frequencies.</li>
+	<li style="text-align:left">This means no influence of all other frequencies.</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="56f2d16e5c8c9852212b03918412d97a" style="height: auto; min-width: 30px; min-height: 30px; width: 960px; left: 0px; top: 311px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; text-align: center;">
+<p>$\Rightarrow X(\jmath \omega) = 0$ for $\forall \omega \ne k\omega_0$</p>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="e597c34834f01a89403fcfd4d58d94d2" style="height: auto; min-width: 30px; min-height: 30px; width: 960px; left: 0px; top: 424px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; color: rgb(246, 18, 18);">
+<p>Impulse in Frequency Domain</p>
+
+<p> </p>
+
+<p>Sampling of $X(\jmath \omega)$ at every $\omega = k\omega_0$</p>
+</div></div></section>
 			</div>
 		</div>
 
