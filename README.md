@@ -4,7 +4,6 @@ Presentation on Fourier Series and Transform for SIG Meet, IEEE IIT Roorkee Stud
 ### This presentation covered:
 - Introduction to Fourier Series
 - Intuitive understanding of Fourier Series
-- Introduction to Fourier Transform and Frequency Domain
-- Intuitive understanding of Fourier Transform and Frequency Domain
-- Applications of Fourier Transform
-
+- Introduction to Fourier transform and frequency domain
+- Intuitive understanding of Fourier transform and frequency domain
+- Applications of Fourier transform
